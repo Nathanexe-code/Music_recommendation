@@ -7,13 +7,15 @@
 ## Contents
 - `Final.ipynb`: A Jupyter notebook that contains the exploratory data analysis, clustering algorithm implementation, and visualization of the clustering results.
 - `main.py`: A Python script that sets up the data processing pipeline, loads the data, applies clustering algorithms, and saves the output.
-- 'Recommendation.py'
+- `recommend.py`: A Python script that recommends the song.
 ## Getting Started
 
 ### Prerequisites
 - Python 3.8 or higher
 - Jupyter Notebook or JupyterLab
 - Libraries: numpy, pandas, matplotlib, scikit-learn
+- Spark Shell
+- Kafka
 
 ### Installation
 1. Clone the repository or download the files to your local machine.
