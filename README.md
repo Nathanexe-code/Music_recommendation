@@ -1,8 +1,8 @@
 # Music_recommendation
-# Aesthetic
+
 
 ## Overview
-"Aesthetic" is a project designed to explore and implement data clustering techniques. The project uses Python to analyze datasets, apply clustering algorithms, and visualize the results.
+"Music_recommendation" is a project designed to explore and implement data clustering techniques. The project uses Python to analyze datasets, apply clustering algorithms, and visualize the results.
 
 ## Contents
 - `Final.ipynb`: A Jupyter notebook that contains the exploratory data analysis, clustering algorithm implementation, and visualization of the clustering results.
