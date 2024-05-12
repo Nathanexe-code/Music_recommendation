@@ -25,7 +25,7 @@
 - To view and run the Jupyter notebook:
   jupyter notebook Final.ipynb
 - To execute the Python script:
-spark-submit --master local[6] main.py
+- spark-submit --master local[6] main.py
 
 
 ## Contributing
