@@ -7,7 +7,7 @@
 ## Contents
 - `Final.ipynb`: A Jupyter notebook that contains the exploratory data analysis, clustering algorithm implementation, and visualization of the clustering results.
 - `main.py`: A Python script that sets up the data processing pipeline, loads the data, applies clustering algorithms, and saves the output.
-
+- 'Recommendation.py'
 ## Getting Started
 
 ### Prerequisites
@@ -40,7 +40,7 @@
 
 
 ## Contributing
-Contributions to "Aesthetic" are welcome. Please fork the repository, make your changes, and submit a pull request.
+Contributions to "Music_Recommendation" are welcome. Please fork the repository, make your changes, and submit a pull request.
 
 ## License
 This project is open source and available under the [MIT License](LICENSE.md).
