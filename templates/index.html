@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Cluster Finder</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <!-- Header section with logo -->
+    <div class="header">
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Music Logo">
+    </div>
+    <div class="main">
+        <h1>Song Information</h1>
+        <form action="/process" method="post">
+            <label for="title">Enter the title of the song:</label><br>
+            <input type="text" id="title" name="title" required><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <!-- Conditional rendering for songs and error messages -->
+        {% if songs %}
+        <h2>Similar Songs</h2>
+        <ul>
+            {% for song in songs %}
+                <li>Title: {{ song.title }} | Artist: {{ song.artist }} | Album: {{ song.album }}</li>
+            {% endfor %}
+        </ul>
+        {% elif error %}
+            <p>{{ error }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
