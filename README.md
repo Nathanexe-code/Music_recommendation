@@ -19,7 +19,18 @@
 1. Clone the repository or download the files to your local machine.
 2. Install the required Python packages:
 
-  pip install numpy pandas matplotlib scikit-learn jupyter
+import os
+import librosa
+import numpy as np
+from mutagen.easyid3 import EasyID3
+from mutagen.mp3 import MP3
+from concurrent.futures import ThreadPoolExecutor
+import pymongo
+from pymongo import MongoClient
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+import matplotlib.pyplot as plt
+from scipy.fftpack import dct, idct
 
 ### Usage
 - To view and run the Jupyter notebook:
